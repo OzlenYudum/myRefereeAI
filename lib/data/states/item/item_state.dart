@@ -1,6 +1,6 @@
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:pokedex/data/entities/item.dart';
+import 'package:myrefereeai/data/entities/item.dart';
 
 part 'item_state.freezed.dart';
 

@@ -1,7 +1,7 @@
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/core/usecase.dart';
-import 'package:pokedex/data/repositories/pokemon_repository.dart';
-import 'package:pokedex/data/entities/pokemon.dart';
+import 'package:myrefereeai/core/usecase.dart';
+import 'package:myrefereeai/data/repositories/pokemon_repository.dart';
+import 'package:myrefereeai/data/entities/pokemon.dart';
 
 @singleton
 class GetAllPokemonsUseCase extends UseCase<List<Pokemon>, NoParams?> {

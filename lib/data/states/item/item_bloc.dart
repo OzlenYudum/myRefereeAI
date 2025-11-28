@@ -1,8 +1,8 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/data/repositories/item_repository.dart';
-import 'package:pokedex/data/states/item/item_event.dart';
-import 'package:pokedex/data/states/item/item_state.dart';
+import 'package:myrefereeai/data/repositories/item_repository.dart';
+import 'package:myrefereeai/data/states/item/item_event.dart';
+import 'package:myrefereeai/data/states/item/item_state.dart';
 import 'package:stream_transform/stream_transform.dart';
 
 @singleton

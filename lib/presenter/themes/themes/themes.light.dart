@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
-import 'package:pokedex/presenter/themes/themes.dart';
+import 'package:myRefereeAI/presenter/themes/colors.dart';
+import 'package:myRefereeAI/presenter/themes/themes.dart';
 
 class LightAppTheme extends AppTheme {
   const LightAppTheme()
@@ -8,22 +8,29 @@ class LightAppTheme extends AppTheme {
           name: 'light',
           brightness: Brightness.light,
           colors: const AppThemeColors(
-            primarySwatch: Colors.red,
-            primary: Color(0xFFFA6555),
-            secondary: Color(0xFF6C79DB),
-            accent: Color(0xFF27C754),
-            background: Color(0xFFFFFFFF),
-            backgroundDark: Color(0xFFF5F5F5),
-            disabled: Color(0x64303943),
-            information: Color(0xFF6C79DB),
-            success: Color(0xFF78C850),
-            alert: Color(0xFFF6C747),
-            warning: Color(0xFFFF9D5C),
-            error: Color(0xFFFA6555),
-            text: Color(0xFF303943),
-            textOnPrimary: Color(0xFFFFFFFF),
-            border: Color(0xFFEBEBEB),
-            hint: Color(0x99303943),
+            // TEMA GENELİ
+            primarySwatch: Colors.grey, // Swatch'ı griye çektik
+            primary: Color(0xFF1A1A1A), // Derin Siyah (Butonlar, AppBar Başlıkları)
+            secondary: Color(0xFF424242), // Koyu Gri (İkincil butonlar, ikonlar)
+            accent: Color(0xFFFF4136), // Kırmızı Vurgu (Hakem Kırmızı Kartı / Kritik uyarılar)
+
+            // YÜZEY VE ZEMİN
+            background: Color(0xFFFFFFFF), // Saf Beyaz Zemin
+            backgroundDark: Color(0xFFF0F0F0), // Açık Gri (Kart Arka Planları)
+            border: Color(0xFFD9D9D9), // Çok Açık Gri (Ayırıcılar, Kenarlıklar)
+
+            // METİN
+            text: Color(0xFF121212), // Koyu Siyah (Okunabilirlik)
+            textOnPrimary: Color(0xFFFFFFFF), // Siyah üzerinde Beyaz Metin
+            disabled: Color(0x64424242), // Gri Tonlu (Pasif Butonlar)
+            hint: Color(0x99424242), // Hafif Gri (Giriş Alanı İpuçları)
+
+            // DURUM (Durum renkleri, kural kararları için gereklidir)
+            information: Color(0xFF0074D9), // Mavi (Genel Bilgi, Tartışmalı Pozisyonlar)
+            success: Color(0xFF2ECC40), // Yeşil (Başarılı İşlem, 'Temiz Pozisyon' / Gol)
+            alert: Color(0xFFFFA500), // Turuncu (Uyarı, Sarı Kart)
+            warning: Color(0xFFFF9D5C), // Hafif Turuncu (İkincil Uyarı)
+            error: Color(0xFFFF4136), // Kırmızı (Hata, Kırmızı Kart / Penaltı Kararı)
           ),
         );
 }

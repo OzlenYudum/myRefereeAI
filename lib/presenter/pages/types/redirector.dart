@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/types.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
-import 'package:pokedex/utils/extensions/string.dart';
+import 'package:myrefereeai/data/types.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
+import 'package:myrefereeai/utils/extensions/string.dart';
 
 // Class responsible for creating the cards that redirects to other pages in the list view
 

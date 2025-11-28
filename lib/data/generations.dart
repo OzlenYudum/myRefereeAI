@@ -1,4 +1,5 @@
-import 'package:pokedex/data/entities/pokemon_generation.dart';
+
+import 'package:myRefereeAI/data/entities/pokemon_generation.dart';
 
 const List<PokemonGeneration> pokemonGenerations = [
   PokemonGeneration(

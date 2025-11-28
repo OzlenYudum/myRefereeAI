@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
 
 // A class that generates Bold Texts required for the individual types icon
 class BoldText extends StatelessWidget {

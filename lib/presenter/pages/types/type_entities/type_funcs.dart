@@ -1,5 +1,5 @@
-import 'package:pokedex/data/types.dart';
-import 'package:pokedex/presenter/pages/types/type_entities/type_constants.dart';
+import 'package:myrefereeai/data/types.dart';
+import 'package:myrefereeai/presenter/pages/types/type_entities/type_constants.dart';
 
 // A function that returns a list of types of pokemon that when attacked to, hit normally
 List<String> normalTypeReturner(List<String> combined) {

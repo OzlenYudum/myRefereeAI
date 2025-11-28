@@ -2,8 +2,8 @@ import 'dart:async';
 
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/navigation/navigation.dart';
-import 'package:pokedex/presenter/widgets/loading.dart';
+import 'package:myrefereeai/presenter/navigation/navigation.dart';
+import 'package:myrefereeai/presenter/widgets/loading.dart';
 
 @RoutePage()
 class SplashPage extends StatefulWidget {

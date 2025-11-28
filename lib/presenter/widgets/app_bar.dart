@@ -1,7 +1,5 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
-import 'package:pokedex/utils/size.dart';
 
 class AppAppBar extends AppBar {
   static const EdgeInsets padding = EdgeInsets.symmetric(horizontal: 28);

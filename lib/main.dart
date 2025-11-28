@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/app.dart';
-import 'package:pokedex/di.dart';
+import 'package:myRefereeAI/di.dart';
+import 'package:myRefereeAI/presenter/app.dart';
+
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -9,7 +10,7 @@ void main() async {
 
   runApp(
     GlobalBlocProviders(
-      child: PokedexApp(),
+      child: MyRefereeAI(),
     ),
   );
 }

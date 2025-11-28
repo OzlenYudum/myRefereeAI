@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/entities/pokemon_types.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
+import 'package:myrefereeai/data/entities/pokemon_types.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
 
 class PokemonType extends StatelessWidget {
   const PokemonType(

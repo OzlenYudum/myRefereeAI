@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/pages/types/modal_draggable.dart';
-import 'package:pokedex/data/types.dart';
+import 'package:myrefereeai/presenter/pages/types/modal_draggable.dart';
+import 'package:myrefereeai/data/types.dart';
 import 'colored_pokeball.dart';
 
 // Class that is responsible for making the modal sheet appear when a type is clicked on

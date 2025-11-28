@@ -1,7 +1,7 @@
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/data/states/settings/settings_event.dart';
-import 'package:pokedex/data/states/settings/settings_state.dart';
+import 'package:myrefereeai/data/states/settings/settings_event.dart';
+import 'package:myrefereeai/data/states/settings/settings_state.dart';
 
 @singleton
 class SettingsBloc extends Bloc<SettingsEvent, SettingsState> {

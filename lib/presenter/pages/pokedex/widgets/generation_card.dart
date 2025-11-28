@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/entities/pokemon_generation.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
+import 'package:myrefereeai/data/entities/pokemon_generation.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
 
 class GenerationCard extends StatelessWidget {
   const GenerationCard(this.generation, {super.key});

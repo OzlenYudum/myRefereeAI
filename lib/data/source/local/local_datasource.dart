@@ -2,10 +2,10 @@ import 'dart:math';
 
 import 'package:hive_flutter/hive_flutter.dart';
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/data/source/local/models/item.dart';
-import 'package:pokedex/data/source/local/models/pokemon.dart';
-import 'package:pokedex/data/source/local/models/pokemon_gender.dart';
-import 'package:pokedex/data/source/local/models/pokemon_stats.dart';
+import 'package:myrefereeai/data/source/local/models/item.dart';
+import 'package:myrefereeai/data/source/local/models/pokemon.dart';
+import 'package:myrefereeai/data/source/local/models/pokemon_gender.dart';
+import 'package:myrefereeai/data/source/local/models/pokemon_stats.dart';
 
 @singleton
 class LocalDataSource {

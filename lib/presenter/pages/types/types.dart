@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/pages/types/type_grid.dart';
-import 'package:pokedex/presenter/widgets/app_bar.dart';
-import 'package:pokedex/presenter/widgets/scaffold.dart';
+import 'package:myrefereeai/presenter/pages/types/type_grid.dart';
+import 'package:myrefereeai/presenter/widgets/app_bar.dart';
+import 'package:myrefereeai/presenter/widgets/scaffold.dart';
 
 // Class that is related to creating the whole type-effects page
 @RoutePage()

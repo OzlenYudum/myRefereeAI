@@ -3,17 +3,17 @@ import 'dart:async';
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/data/types.dart';
-import 'package:pokedex/data/entities/pokemon.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/navigation/navigation.dart';
-import 'package:pokedex/data/states/pokemon/pokemon_bloc.dart';
-import 'package:pokedex/data/states/pokemon/pokemon_event.dart';
-import 'package:pokedex/data/states/pokemon/pokemon_state.dart';
-import 'package:pokedex/presenter/pages/types/type_container.dart';
-import 'package:pokedex/presenter/pages/types/type_entities/widget_list.dart';
-import 'package:pokedex/presenter/widgets/pokemon_card.dart';
-import 'package:pokedex/utils/extensions/string.dart';
+import 'package:myrefereeai/data/types.dart';
+import 'package:myrefereeai/data/entities/pokemon.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/navigation/navigation.dart';
+import 'package:myrefereeai/data/states/pokemon/pokemon_bloc.dart';
+import 'package:myrefereeai/data/states/pokemon/pokemon_event.dart';
+import 'package:myrefereeai/data/states/pokemon/pokemon_state.dart';
+import 'package:myrefereeai/presenter/pages/types/type_container.dart';
+import 'package:myrefereeai/presenter/pages/types/type_entities/widget_list.dart';
+import 'package:myrefereeai/presenter/widgets/pokemon_card.dart';
+import 'package:myrefereeai/utils/extensions/string.dart';
 
 // Class responsible for creating the list present in the modal page consisting of various effects related to the selected type
 class ModalContents extends StatefulWidget {

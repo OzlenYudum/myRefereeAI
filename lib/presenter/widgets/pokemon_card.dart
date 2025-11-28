@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/entities/pokemon.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
-import 'package:pokedex/presenter/widgets/pokemon_image.dart';
-import 'package:pokedex/presenter/widgets/pokemon_type.dart';
+import 'package:myrefereeai/data/entities/pokemon.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
+import 'package:myrefereeai/presenter/widgets/pokemon_image.dart';
+import 'package:myrefereeai/presenter/widgets/pokemon_type.dart';
 
 class PokemonCard extends StatelessWidget {
   static const double _pokeballFraction = 0.75;

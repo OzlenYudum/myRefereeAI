@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
 
 class ProgressBar extends StatelessWidget {
   const ProgressBar({

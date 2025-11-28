@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/types.dart';
+import 'package:myrefereeai/data/types.dart';
 
 import 'modal_sheet.dart';
 

@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/fonts.gen.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
-import 'package:pokedex/presenter/themes/styles.dart';
-import 'package:pokedex/presenter/themes/typography.dart';
+import 'package:myRefereeAI/presenter/fonts.gen.dart';
+import 'package:myRefereeAI/presenter/themes/colors.dart';
+import 'package:myRefereeAI/presenter/themes/styles.dart';
+import 'package:myRefereeAI/presenter/themes/typography.dart';
+
 
 class AppTheme extends ThemeExtension<AppTheme> {
   final String name;
@@ -50,7 +51,7 @@ class AppTheme extends ThemeExtension<AppTheme> {
           elevation: 0,
           titleTextStyle: typographies.body,
           centerTitle: true,
-          color: Colors.transparent,
+          backgroundColor: Colors.transparent,
           foregroundColor: colors.text,
           surfaceTintColor: colors.text,
         ),

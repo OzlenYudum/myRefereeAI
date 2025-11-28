@@ -2,13 +2,14 @@ import 'dart:ui';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_web_frame/flutter_web_frame.dart';
-import 'package:pokedex/presenter/navigation/navigation.dart';
-import 'package:pokedex/data/states/settings/settings_selector.dart';
+import 'package:myRefereeAI/data/states/settings/settings_selector.dart';
+import 'package:myRefereeAI/presenter/navigation/navigation.dart';
 
-class PokedexApp extends StatelessWidget {
+
+class MyRefereeAI extends StatelessWidget {
   final AppRouter _router = AppRouter();
 
-  PokedexApp({super.key});
+  MyRefereeAI({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -18,7 +19,7 @@ class PokedexApp extends StatelessWidget {
       enabled: MediaQuery.sizeOf(context).shortestSide > 600,
       builder: (_) => SettingsThemeSelector(
         builder: (theme) => MaterialApp.router(
-          title: 'Flutter Pokedex',
+          title: 'MyRefereeAI',
           theme: theme.themeData,
           routerConfig: _router.config(),
           scrollBehavior: AppScrollBehavior(),

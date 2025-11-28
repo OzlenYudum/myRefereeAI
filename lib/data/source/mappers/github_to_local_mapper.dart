@@ -1,12 +1,12 @@
-import 'package:pokedex/utils/extensions/string.dart';
-import 'package:pokedex/data/source/github/models/item.dart';
+import 'package:myrefereeai/utils/extensions/string.dart';
+import 'package:myrefereeai/data/source/github/models/item.dart';
 
-import 'package:pokedex/data/source/github/models/pokemon.dart';
-import 'package:pokedex/data/source/local/models/item.dart';
+import 'package:myrefereeai/data/source/github/models/pokemon.dart';
+import 'package:myrefereeai/data/source/local/models/item.dart';
 
-import 'package:pokedex/data/source/local/models/pokemon.dart';
-import 'package:pokedex/data/source/local/models/pokemon_gender.dart';
-import 'package:pokedex/data/source/local/models/pokemon_stats.dart';
+import 'package:myrefereeai/data/source/local/models/pokemon.dart';
+import 'package:myrefereeai/data/source/local/models/pokemon_gender.dart';
+import 'package:myrefereeai/data/source/local/models/pokemon_stats.dart';
 
 extension GithubPokemonModelToLocalX on GithubPokemonModel {
   PokemonHiveModel toHiveModel() => PokemonHiveModel()

@@ -1,8 +1,8 @@
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/entities/item.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
+import 'package:myrefereeai/data/entities/item.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
 
 import 'item_category.dart';
 

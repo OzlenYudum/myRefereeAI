@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/widgets/modal.dart';
-import 'package:pokedex/presenter/widgets/input.dart';
+import 'package:myrefereeai/presenter/widgets/modal.dart';
+import 'package:myrefereeai/presenter/widgets/input.dart';
 
 class SearchBottomModal extends StatelessWidget {
   const SearchBottomModal({super.key});

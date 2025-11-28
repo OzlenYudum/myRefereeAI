@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/generations.dart';
-import 'package:pokedex/data/entities/pokemon_generation.dart';
-import 'package:pokedex/presenter/pages/pokedex/widgets/generation_card.dart';
-import 'package:pokedex/presenter/widgets/modal.dart';
+import 'package:myrefereeai/data/generations.dart';
+import 'package:myrefereeai/data/entities/pokemon_generation.dart';
+import 'package:myrefereeai/presenter/pages/pokedex/widgets/generation_card.dart';
+import 'package:myrefereeai/presenter/widgets/modal.dart';
 
 class GenerationModal extends StatelessWidget {
   const GenerationModal({super.key});

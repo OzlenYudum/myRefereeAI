@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/types.dart';
-import 'package:pokedex/presenter/pages/types/type_entities/type_constants.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
+import 'package:myrefereeai/data/types.dart';
+import 'package:myrefereeai/presenter/pages/types/type_entities/type_constants.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
 
 import 'bold_texts.dart';
 

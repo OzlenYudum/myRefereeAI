@@ -2,8 +2,9 @@ import 'dart:ui';
 
 import 'package:flutter/foundation.dart';
 import 'package:freezed_annotation/freezed_annotation.dart';
-import 'package:pokedex/data/entities/pokemon_properties.dart';
-import 'package:pokedex/data/entities/pokemon_types.dart';
+import 'package:myRefereeAI/data/entities/pokemon_properties.dart';
+import 'package:myRefereeAI/data/entities/pokemon_types.dart';
+
 
 part 'pokemon.freezed.dart';
 part 'pokemon.g.dart';

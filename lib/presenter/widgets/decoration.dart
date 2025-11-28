@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
-import 'package:pokedex/presenter/widgets/app_bar.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
+import 'package:myrefereeai/presenter/widgets/app_bar.dart';
 
 class PositionedPokeball extends StatelessWidget {
   final double widthFraction;

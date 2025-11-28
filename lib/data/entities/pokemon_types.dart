@@ -1,6 +1,7 @@
 import 'dart:ui';
 
-import 'package:pokedex/presenter/themes/colors.dart';
+import 'package:myRefereeAI/presenter/themes/colors.dart';
+
 
 enum PokemonTypes {
   grass('Grass', AppColors.lightGreen),

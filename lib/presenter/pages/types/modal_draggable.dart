@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/pages/types/modal_contents.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/pages/types/modal_contents.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
 
 // Class responsible for generating the modal page when clicked on a type
 class ModalDraggable extends StatelessWidget {

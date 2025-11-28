@@ -1,10 +1,9 @@
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/data/repositories/item_repository.dart';
-import 'package:pokedex/data/source/github/github_datasource.dart';
-import 'package:pokedex/data/source/local/local_datasource.dart';
-import 'package:pokedex/data/source/mappers/github_to_local_mapper.dart';
-import 'package:pokedex/data/source/mappers/local_to_entity_mapper.dart';
-import 'package:pokedex/data/entities/item.dart';
+import 'package:myRefereeAI/data/entities/item.dart';
+import 'package:myRefereeAI/data/repositories/item_repository.dart';
+import 'package:myRefereeAI/data/source/github/github_datasource.dart';
+import 'package:myRefereeAI/data/source/local/local_datasource.dart';
+
 
 @Singleton(as: ItemRepository)
 class DefaultItemRepository extends ItemRepository {

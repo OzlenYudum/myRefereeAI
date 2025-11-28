@@ -1,9 +1,9 @@
 import 'dart:convert';
 
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/data/source/github/network.dart';
-import 'package:pokedex/data/source/github/models/item.dart';
-import 'package:pokedex/data/source/github/models/pokemon.dart';
+import 'package:myRefereeAI/data/source/github/models/item.dart';
+import 'package:myRefereeAI/data/source/github/models/pokemon.dart';
+import 'package:myRefereeAI/data/source/github/network.dart';
 
 @singleton
 class GithubDataSource {

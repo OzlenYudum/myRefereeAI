@@ -1,9 +1,7 @@
 import 'dart:math';
 
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
-import 'package:pokedex/presenter/widgets/app_bar.dart';
+
 
 class PokeballScaffold extends Scaffold {
   PokeballScaffold({

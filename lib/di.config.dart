@@ -12,19 +12,19 @@
 import 'package:dio/dio.dart' as _i361;
 import 'package:get_it/get_it.dart' as _i174;
 import 'package:injectable/injectable.dart' as _i526;
-import 'package:pokedex/data/repositories/item_repository.dart' as _i282;
-import 'package:pokedex/data/repositories/item_repository.default.dart' as _i25;
-import 'package:pokedex/data/repositories/pokemon_repository.dart' as _i456;
-import 'package:pokedex/data/repositories/pokemon_repository.default.dart' as _i525;
-import 'package:pokedex/data/source/github/github_datasource.dart' as _i408;
-import 'package:pokedex/data/source/github/network.dart' as _i510;
-import 'package:pokedex/data/source/local/local_datasource.dart' as _i880;
-import 'package:pokedex/data/states/item/item_bloc.dart' as _i622;
-import 'package:pokedex/data/states/pokemon/pokemon_bloc.dart' as _i577;
-import 'package:pokedex/data/states/settings/settings_bloc.dart' as _i240;
-import 'package:pokedex/data/usecases/item_usecases.dart' as _i416;
-import 'package:pokedex/data/usecases/pokemon_usecases.dart' as _i988;
-import 'package:pokedex/di.dart' as _i326;
+import 'package:myrefereeai/data/repositories/item_repository.dart' as _i282;
+import 'package:myrefereeai/data/repositories/item_repository.default.dart' as _i25;
+import 'package:myrefereeai/data/repositories/pokemon_repository.dart' as _i456;
+import 'package:myrefereeai/data/repositories/pokemon_repository.default.dart' as _i525;
+import 'package:myrefereeai/data/source/github/github_datasource.dart' as _i408;
+import 'package:myrefereeai/data/source/github/network.dart' as _i510;
+import 'package:myrefereeai/data/source/local/local_datasource.dart' as _i880;
+import 'package:myrefereeai/data/states/item/item_bloc.dart' as _i622;
+import 'package:myrefereeai/data/states/pokemon/pokemon_bloc.dart' as _i577;
+import 'package:myrefereeai/data/states/settings/settings_bloc.dart' as _i240;
+import 'package:myrefereeai/data/usecases/item_usecases.dart' as _i416;
+import 'package:myrefereeai/data/usecases/pokemon_usecases.dart' as _i988;
+import 'package:myrefereeai/di.dart' as _i326;
 
 extension GetItInjectableX on _i174.GetIt {
 // initializes the registration of main-scope dependencies inside of GetIt

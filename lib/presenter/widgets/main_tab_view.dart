@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
+import 'package:myrefereeai/presenter/themes/colors.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
 
 class MainTabData {
   final Widget child;

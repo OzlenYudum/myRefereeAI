@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/data/entities/pokemon_types.dart';
+import 'package:myrefereeai/data/entities/pokemon_types.dart';
 
 class PokeTypes {
   const PokeTypes({

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/data/entities/pokemon.dart';
-import 'package:pokedex/data/states/pokemon/pokemon_bloc.dart';
-import 'package:pokedex/data/states/pokemon/pokemon_state.dart';
+import 'package:myrefereeai/data/entities/pokemon.dart';
+import 'package:myrefereeai/data/states/pokemon/pokemon_bloc.dart';
+import 'package:myrefereeai/data/states/pokemon/pokemon_state.dart';
 
 class PokemonStateSelector<T> extends BlocSelector<PokemonBloc, PokemonState, T> {
   PokemonStateSelector({

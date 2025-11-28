@@ -1,12 +1,12 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/colors.dart';
-import 'package:pokedex/presenter/themes/styles.dart';
-import 'package:pokedex/presenter/themes/themes.dart';
-import 'package:pokedex/presenter/themes/themes/themes.light.dart';
-import 'package:pokedex/presenter/themes/typography.dart';
+import 'package:myRefereeAI/presenter/themes/colors.dart';
+import 'package:myRefereeAI/presenter/themes/styles.dart';
+import 'package:myRefereeAI/presenter/themes/themes.dart';
+import 'package:myRefereeAI/presenter/themes/themes/themes.light.dart';
+import 'package:myRefereeAI/presenter/themes/typography.dart';
 
 extension AppThemeExtension on BuildContext {
-  AppTheme get appTheme => Theme.of(this).extension<AppTheme>() ?? const LightAppTheme();
+  AppTheme get appTheme => Theme.of(this).extension<AppTheme>() ??  const LightAppTheme();
 
   AppThemeTypography get typographies => appTheme.typographies;
 

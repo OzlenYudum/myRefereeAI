@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/assets.gen.dart';
+import 'package:myrefereeai/presenter/assets.gen.dart';
 
 class PikaLoadingIndicator extends StatelessWidget {
   const PikaLoadingIndicator({super.key});

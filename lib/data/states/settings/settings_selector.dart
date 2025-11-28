@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:pokedex/data/states/settings/settings_bloc.dart';
-import 'package:pokedex/data/states/settings/settings_state.dart';
-import 'package:pokedex/presenter/themes/themes.dart';
+import 'package:myrefereeai/data/states/settings/settings_bloc.dart';
+import 'package:myrefereeai/data/states/settings/settings_state.dart';
+import 'package:myrefereeai/presenter/themes/themes.dart';
 
 class SettingsSelector<T> extends BlocSelector<SettingsBloc, SettingsState, T> {
   SettingsSelector({

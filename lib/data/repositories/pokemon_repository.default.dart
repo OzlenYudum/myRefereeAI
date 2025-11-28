@@ -1,10 +1,8 @@
 import 'package:injectable/injectable.dart';
-import 'package:pokedex/data/repositories/pokemon_repository.dart';
-import 'package:pokedex/data/source/github/github_datasource.dart';
-import 'package:pokedex/data/source/local/local_datasource.dart';
-import 'package:pokedex/data/source/mappers/github_to_local_mapper.dart';
-import 'package:pokedex/data/source/mappers/local_to_entity_mapper.dart';
-import 'package:pokedex/data/entities/pokemon.dart';
+import 'package:myRefereeAI/data/entities/pokemon.dart';
+import 'package:myRefereeAI/data/repositories/pokemon_repository.dart';
+import 'package:myRefereeAI/data/source/github/github_datasource.dart';
+import 'package:myRefereeAI/data/source/local/local_datasource.dart';
 
 @Singleton(as: PokemonRepository)
 class PokemonDefaultRepository extends PokemonRepository {

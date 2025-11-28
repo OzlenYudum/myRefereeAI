@@ -1,4 +1,4 @@
-import 'package:pokedex/data/entities/pokemon.dart';
+import 'package:myRefereeAI/data/entities/pokemon.dart';
 
 abstract class PokemonRepository {
   const PokemonRepository();

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:pokedex/presenter/themes/extensions.dart';
+import 'package:myrefereeai/presenter/themes/extensions.dart';
 
 class Modal extends StatelessWidget {
   static const Radius _borderRadius = Radius.circular(30.0);
